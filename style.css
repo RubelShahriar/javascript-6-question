@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ask{
+    font-size: 18px;
+}
+.questions .question{
+    width: 400px;
+    background-color: springgreen;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.questions .question .inner-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.questions .question .ans{
+    border-top: 2px solid orange;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: none;
+}
+.minus{
+    display: none;
+}
+.show-text .ans{
+    display: block !important;
+}
+.show-text .inner-div .icon .minus{
+    display: inline;
+}
+.show-text .inner-div .icon .plus{
+    display: none;
+}
